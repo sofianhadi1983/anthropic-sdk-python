@@ -102,6 +102,7 @@ from .lib.tools import beta_tool, beta_async_tool
 from .lib.vertex import *
 from .lib.bedrock import *
 from .lib.foundry import AnthropicFoundry as AnthropicFoundry, AsyncAnthropicFoundry as AsyncAnthropicFoundry
+from .lib.oauth import AnthropicOAuth as AnthropicOAuth, AsyncAnthropicOAuth as AsyncAnthropicOAuth
 from .lib.streaming import *
 
 _setup_logging()
